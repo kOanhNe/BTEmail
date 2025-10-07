@@ -29,7 +29,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy file .war đã được build từ giai đoạn 1 vào thư mục webapps của Tomcat
 # Đổi tên thành ROOT.war để ứng dụng chạy ở đường dẫn gốc (vd: your-app.onrender.com/)
-COPY --from=build /app/target/EmailListApp.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=build /app/target/BTEmail.war /usr/local/tomcat/webapps/ROOT.war
 
 # Cổng 8080 được Tomcat sử dụng mặc định, Render sẽ tự động nhận diện
 EXPOSE 8080
