@@ -1,0 +1,56 @@
+/* The styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 400px;
+    text-align: center;
+    color: #333;
+}
+h1 {
+    font-size: 140%;
+    color: #FF6B6B;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 120%;
+    color: #4ECDC4;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #2C3E50;
+}
+input[type="text"], input[type="email"] { /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+/* Footer version text */
+.version {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #95a5a6;
+}
